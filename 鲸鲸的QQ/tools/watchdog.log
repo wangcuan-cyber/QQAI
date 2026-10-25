@@ -1,0 +1,337 @@
+﻿2026-10-25 02:07:36 watchdog started (pid=20388)
+2026-10-25 02:07:43 dsh port 54121 confirmed (config already current)
+2026-10-25 02:11:57 watchdog started (pid=34880)
+2026-10-25 02:12:04 dsh port 54121 confirmed (config already current)
+2026-10-25 02:25:59 dsh not reachable (closed or restarting) - waiting
+2026-10-25 02:29:45 watchdog started (pid=37396)
+2026-10-25 02:29:51 dsh port 53300 -> updated: http://127.0.0.1:54121 -> http://127.0.0.1:53300; restarting bridge
+2026-10-25 02:29:56 bridge start requested (return=0)
+2026-10-24 18:37:37 watchdog started (pid=2688)
+2026-10-24 18:37:45 dsh port 62163 confirmed (config already current)
+2026-10-24 18:40:34 watchdog started (pid=23532)
+2026-10-24 18:40:41 dsh port 62163 differs from config (59999) - config updated, restarting bridge
+2026-10-24 18:40:46 bridge start requested (pid=43368)
+2026-10-24 18:40:46 bridge console:3100 is down - restarting bridge
+2026-10-24 18:40:50 bridge start requested (pid=20456)
+2026-10-24 18:42:33 received SIGHUP - ignoring
+2026-10-25 02:48:54 DSH port 62163 confirmed (config matches)
+2026-10-25 02:49:39 DSH port 62163 confirmed (config matches)
+2026-10-25 02:50:33 DSH port 62163 confirmed (config matches)
+2026-10-25 02:51:13 DSH port 62163 confirmed (config matches)
+2026-10-25 02:52:07 DSH port 62163 confirmed (config matches)
+2026-10-25 02:52:52 DSH port 62163 confirmed (config matches)
+2026-10-25 02:53:29 DSH port 62163 != config (55555) - config.json updated, restarting bridge
+2026-10-25 02:53:35 bridge console (:3100) is down - restarting bridge
+2026-10-25 02:54:39 DSH port 62163 confirmed (config matches)
+2026-10-25 02:55:25 DSH port 62163 confirmed (config matches)
+2026-10-25 02:56:29 DSH port 62163 confirmed (config matches)
+2026-10-25 02:58:21 DSH port 62163 != config (44444) - config.json updated, restarting bridge
+2026-10-25 03:11:54 DSH port 61800 != config (62163) - config.json updated, restarting bridge
+2026-10-25 03:12:00 bridge console (:3100) is down - restarting bridge
+2026-10-25 03:13:53 manual bridge restart
+2026-10-25 03:18:36 DSH port 61800 confirmed (config matches)
+2026-10-25 03:18:57 manual check requested
+2026-10-25 03:18:58 DSH port 61800 confirmed (config matches)
+2026-10-25 03:19:30 manual bridge restart
+2026-10-25 03:19:47 manual check requested
+2026-10-25 03:20:48 DSH port 55525 != config (61800) - config.json updated, restarting bridge
+2026-10-25 03:24:42 DSH port 55525 confirmed (config matches)
+2026-10-25 03:25:20 DSH port 55525 != config (61800) - config.json updated, restarting bridge
+2026-10-25 03:25:26 bridge is up but DSH is not ready (round 2) - restarting bridge
+2026-10-25 03:26:18 DSH port 55525 != config (11111) - config.json updated, restarting bridge
+2026-10-25 03:27:01 bridge is up but DSH is not ready (round 2) - restarting bridge
+2026-10-25 03:28:30 bridge is up but DSH is not ready (round 2) - restarting bridge
+2026-10-25 03:28:43 heartbeat #6 - DSH api port 55525, config 55525, bridge up, snowluma up
+2026-10-25 03:29:00 DSH port 55525 confirmed (config matches)
+2026-10-25 03:29:07 watching paused (no automatic intervention)
+2026-10-25 03:31:00 manual check requested
+2026-10-25 03:31:25 manual bridge restart
+2026-10-25 03:34:24 DSH port 49989 != config (55525) - config.json updated, restarting bridge
+2026-10-25 03:35:09 bridge is up but DSH is not ready (round 2) - restarting bridge
+2026-10-25 03:35:59 DSH port 49989 confirmed (config matches)
+2026-10-25 03:36:38 bridge is up but DSH is not ready (round 2) - restarting bridge
+2026-10-25 03:38:07 DSH port 49989 confirmed (config matches)
+2026-10-25 03:40:40 DSH port 49989 != config (44444) - config.json updated, restarting bridge
+2026-10-25 03:41:24 bridge reports DSH ready again
+2026-10-25 03:41:24 heartbeat #6 - DSH api port 49989, config 49989, bridge up, snowluma up
+2026-10-25 03:46:29 heartbeat #12 - DSH api port 49989, config 49989, bridge up, snowluma up
+2026-10-25 03:47:08 DSH unreachable (closed or restarting) - waiting
+2026-10-25 03:47:47 DSH port 64136 != config (49989) - config.json updated, restarting bridge
+2026-10-25 03:47:53 bridge console (:3100) is down - restarting bridge
+2026-10-25 03:48:44 DSH unreachable (closed or restarting) - waiting
+2026-10-25 03:49:24 DSH port 55316 != config (64136) - config.json updated, restarting bridge
+2026-10-25 03:49:30 bridge console (:3100) is down - restarting bridge
+2026-10-25 03:50:05 DSH port 55316 confirmed (config matches)
+2026-10-25 03:53:17 heartbeat #6 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 03:57:06 heartbeat #12 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:00:57 heartbeat #18 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:04:47 heartbeat #24 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:08:37 heartbeat #30 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:12:28 heartbeat #36 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:16:17 heartbeat #42 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:20:07 heartbeat #48 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:23:56 heartbeat #54 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:27:45 heartbeat #60 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:31:35 heartbeat #66 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:35:24 heartbeat #72 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:39:13 heartbeat #78 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:43:02 heartbeat #84 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:46:50 heartbeat #90 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:50:40 heartbeat #96 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:54:29 heartbeat #102 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 04:58:18 heartbeat #108 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:02:07 heartbeat #114 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:05:57 heartbeat #120 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:09:47 heartbeat #126 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:13:34 heartbeat #132 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:17:24 heartbeat #138 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:21:13 heartbeat #144 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:25:02 heartbeat #150 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:28:52 heartbeat #156 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:32:44 heartbeat #162 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:36:36 heartbeat #168 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:40:26 heartbeat #174 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:44:16 heartbeat #180 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:48:06 heartbeat #186 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:51:56 heartbeat #192 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:55:46 heartbeat #198 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 05:59:34 heartbeat #204 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:03:24 heartbeat #210 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:07:13 heartbeat #216 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:11:01 heartbeat #222 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:14:51 heartbeat #228 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:18:40 heartbeat #234 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:22:29 heartbeat #240 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:26:19 heartbeat #246 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:30:08 heartbeat #252 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:33:58 heartbeat #258 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:37:47 heartbeat #264 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:41:37 heartbeat #270 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:45:26 heartbeat #276 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:49:15 heartbeat #282 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:53:06 heartbeat #288 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 06:56:55 heartbeat #294 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:00:44 heartbeat #300 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:04:33 heartbeat #306 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:08:22 heartbeat #312 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:12:10 heartbeat #318 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:16:00 heartbeat #324 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:19:49 heartbeat #330 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:23:38 heartbeat #336 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:27:28 heartbeat #342 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:31:17 heartbeat #348 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:35:06 heartbeat #354 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:38:55 heartbeat #360 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:42:44 heartbeat #366 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:46:34 heartbeat #372 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:50:24 heartbeat #378 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:54:13 heartbeat #384 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 07:58:03 heartbeat #390 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:01:52 heartbeat #396 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:05:42 heartbeat #402 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:09:32 heartbeat #408 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:13:22 heartbeat #414 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:17:10 heartbeat #420 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:21:01 heartbeat #426 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:24:50 heartbeat #432 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:28:41 heartbeat #438 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:32:31 heartbeat #444 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:36:20 heartbeat #450 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:40:10 heartbeat #456 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:43:59 heartbeat #462 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:47:48 heartbeat #468 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:51:38 heartbeat #474 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:55:27 heartbeat #480 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 08:59:17 heartbeat #486 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:03:07 heartbeat #492 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:06:56 heartbeat #498 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:10:45 heartbeat #504 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:14:34 heartbeat #510 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:18:24 heartbeat #516 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:22:15 heartbeat #522 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:26:05 heartbeat #528 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:29:55 heartbeat #534 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:33:44 heartbeat #540 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:37:34 heartbeat #546 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:41:23 heartbeat #552 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:45:13 heartbeat #558 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:49:01 heartbeat #564 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:52:51 heartbeat #570 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 09:56:39 heartbeat #576 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:00:28 heartbeat #582 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:04:17 heartbeat #588 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:08:06 heartbeat #594 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:11:55 heartbeat #600 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:15:45 heartbeat #606 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:19:34 heartbeat #612 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:23:23 heartbeat #618 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:27:12 heartbeat #624 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:31:00 heartbeat #630 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:34:50 heartbeat #636 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:38:40 heartbeat #642 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:42:29 heartbeat #648 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:46:19 heartbeat #654 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:50:11 heartbeat #660 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:54:01 heartbeat #666 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 10:57:49 heartbeat #672 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:01:39 heartbeat #678 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:05:30 heartbeat #684 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:09:25 heartbeat #690 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:13:30 heartbeat #696 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:17:35 heartbeat #702 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:21:24 heartbeat #708 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:25:14 heartbeat #714 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:29:07 heartbeat #720 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:33:00 heartbeat #726 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:36:54 heartbeat #732 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:40:42 heartbeat #738 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:44:32 heartbeat #744 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:48:26 heartbeat #750 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:52:17 heartbeat #756 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 11:56:09 heartbeat #762 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:00:00 heartbeat #768 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:03:55 heartbeat #774 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:07:56 heartbeat #780 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:12:00 heartbeat #786 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:15:55 heartbeat #792 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:19:46 heartbeat #798 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:23:36 heartbeat #804 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:27:28 heartbeat #810 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:31:19 heartbeat #816 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:35:14 heartbeat #822 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:39:07 heartbeat #828 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:42:58 heartbeat #834 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:46:56 heartbeat #840 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:50:47 heartbeat #846 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:54:39 heartbeat #852 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 12:58:32 heartbeat #858 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:02:23 heartbeat #864 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:06:14 heartbeat #870 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:10:06 heartbeat #876 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:14:03 heartbeat #882 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:17:55 heartbeat #888 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:21:46 heartbeat #894 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:25:39 heartbeat #900 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:29:31 heartbeat #906 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:33:34 heartbeat #912 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:37:25 heartbeat #918 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:41:23 heartbeat #924 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:45:18 heartbeat #930 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:49:18 heartbeat #936 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:53:20 heartbeat #942 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 13:57:17 heartbeat #948 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:01:27 heartbeat #954 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:05:31 heartbeat #960 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:09:33 heartbeat #966 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:13:22 heartbeat #972 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:17:13 heartbeat #978 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:21:14 heartbeat #984 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:25:07 heartbeat #990 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:28:58 heartbeat #996 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:32:50 heartbeat #1002 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:36:42 heartbeat #1008 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:40:32 heartbeat #1014 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:44:23 heartbeat #1020 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:48:13 heartbeat #1026 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:52:05 heartbeat #1032 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:55:57 heartbeat #1038 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 14:59:49 heartbeat #1044 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:03:41 heartbeat #1050 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:07:33 heartbeat #1056 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:11:24 heartbeat #1062 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:15:15 heartbeat #1068 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:19:08 heartbeat #1074 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:22:59 heartbeat #1080 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:26:51 heartbeat #1086 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:31:26 heartbeat #1092 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:35:23 heartbeat #1098 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:39:15 heartbeat #1104 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:43:10 heartbeat #1110 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:45:08 bridge console (:3100) is down - restarting bridge
+2026-10-25 15:46:01 bridge console (:3100) is down - restarting bridge
+2026-10-25 15:46:54 bridge console (:3100) is down - restarting bridge
+2026-10-25 15:47:49 DSH port 55316 confirmed (config matches)
+2026-10-25 15:51:04 heartbeat #6 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:54:55 heartbeat #12 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 15:58:46 heartbeat #18 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:02:37 heartbeat #24 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:06:27 heartbeat #30 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:10:19 heartbeat #36 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:14:09 heartbeat #42 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:18:06 heartbeat #48 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:21:57 heartbeat #54 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:25:47 heartbeat #60 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:29:37 heartbeat #66 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:33:28 heartbeat #72 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:37:17 heartbeat #78 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:41:07 heartbeat #84 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:44:57 heartbeat #90 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:48:46 heartbeat #96 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:52:38 heartbeat #102 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 16:56:27 heartbeat #108 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:00:17 heartbeat #114 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:02:50 DSH port 55316: could not update config.json
+2026-10-25 17:03:29 DSH port 55316: could not update config.json
+2026-10-25 17:04:08 heartbeat #120 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:07:58 heartbeat #126 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:11:48 heartbeat #132 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:15:37 heartbeat #138 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:19:24 heartbeat #144 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:23:12 heartbeat #150 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:27:01 heartbeat #156 - DSH api port 55316, config 55316, bridge up, snowluma up
+2026-10-25 17:29:24 SnowLuma is down - starting it
+2026-10-25 17:29:33 bridge console (:3100) is down - restarting bridge
+2026-10-25 17:31:51 DSH app absent for 150s - launching it
+2026-10-25 17:32:43 DSH port 55922 != config (55316) - config.json updated, restarting bridge
+2026-10-25 17:32:48 heartbeat #6 - DSH api port 55922, config 55316, bridge up, snowluma up
+2026-10-25 17:36:28 heartbeat #12 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:40:10 heartbeat #18 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:44:00 heartbeat #24 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:47:47 heartbeat #30 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:51:34 heartbeat #36 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:55:07 heartbeat #42 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 17:58:39 heartbeat #48 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:02:12 heartbeat #54 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:05:44 heartbeat #60 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:09:16 heartbeat #66 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:12:45 heartbeat #72 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:16:15 heartbeat #78 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:19:44 heartbeat #84 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:23:14 heartbeat #90 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:26:46 heartbeat #96 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:30:21 heartbeat #102 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:33:51 heartbeat #108 - DSH api port 55922, config 55922, bridge up, snowluma up
+2026-10-25 18:34:26 DSH unreachable (closed or restarting) - waiting
+2026-10-25 18:35:01 DSH port 52304 != config (55922) - config.json updated, restarting bridge
+2026-10-25 18:35:42 bridge reports DSH ready again
+2026-10-25 18:37:27 heartbeat #114 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:40:57 heartbeat #120 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:44:27 heartbeat #126 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:47:56 heartbeat #132 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:51:27 heartbeat #138 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:55:02 heartbeat #144 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 18:58:33 heartbeat #150 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:02:05 heartbeat #156 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:05:35 heartbeat #162 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:09:05 heartbeat #168 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:12:36 heartbeat #174 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:16:06 heartbeat #180 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:19:35 heartbeat #186 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:23:06 heartbeat #192 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:26:40 heartbeat #198 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:30:13 heartbeat #204 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:33:48 heartbeat #210 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:37:21 heartbeat #216 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:40:59 heartbeat #222 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:44:47 heartbeat #228 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:48:21 heartbeat #234 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:51:55 heartbeat #240 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:55:33 heartbeat #246 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 19:59:27 heartbeat #252 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:03:18 heartbeat #258 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:06:58 heartbeat #264 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:10:55 heartbeat #270 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:14:46 heartbeat #276 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:18:30 heartbeat #282 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:22:03 heartbeat #288 - DSH api port 52304, config 52304, bridge up, snowluma up
+2026-10-25 20:25:36 heartbeat #294 - DSH api port 52304, config 52304, bridge up, snowluma up

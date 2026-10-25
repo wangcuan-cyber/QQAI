@@ -1,0 +1,49 @@
+[2026-10-25T03:33:00.784Z] hit-chain pid=11044 sid=fc217105 textLen=5 hit=null
+[2026-10-25T03:33:26.061Z] hit-chain pid=11044 sid=fc217105 textLen=2 hit=null
+[2026-10-25T03:58:07.358Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T04:01:10.214Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T04:03:52.044Z] check sid=fc217105 active=false idle=345s
+[2026-10-25T04:05:29.592Z] hit-chain pid=11044 sid=fc217105 textLen=22 hit=null
+[2026-10-25T04:18:52.078Z] check sid=fc217105 active=false idle=29s
+[2026-10-25T04:48:52.177Z] check sid=fc217105 active=false idle=41s
+[2026-10-25T05:03:52.223Z] check sid=fc217105 active=false idle=210s
+[2026-10-25T05:15:46.502Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T05:18:52.263Z] check sid=fc217105 active=false idle=186s
+[2026-10-25T05:18:53.572Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T05:18:53.698Z] hit-chain pid=11044 sid=fc217105 textLen=23 hit=null
+[2026-10-25T05:33:49.447Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T05:33:52.305Z] check sid=fc217105 active=false idle=3s
+[2026-10-25T05:36:21.963Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T05:39:37.496Z] hit-chain pid=11044 sid=fc217105 textLen=28 hit=null
+[2026-10-25T05:54:45.571Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:16:49.767Z] hit-chain pid=11044 sid=fc217105 textLen=27 hit=null
+[2026-10-25T06:25:44.108Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:29:18.520Z] hit-chain pid=11044 sid=fc217105 textLen=8 hit=null
+[2026-10-25T06:33:24.668Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:37:24.530Z] hit-chain pid=11044 sid=fc217105 textLen=4 hit=null
+[2026-10-25T06:41:30.107Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:41:56.592Z] hit-chain pid=11044 sid=fc217105 textLen=8 hit=null
+[2026-10-25T06:53:16.214Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:56:53.245Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T06:58:34.738Z] hit-chain pid=11044 sid=fc217105 textLen=40 hit=null
+[2026-10-25T07:08:53.792Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T07:16:49.341Z] hit-chain pid=11044 sid=fc217105 textLen=26 hit=null
+[2026-10-25T07:41:37.613Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T07:43:29.665Z] turn-stopping pid=11044 sid=fc217105 reason=none wasDream=false
+[2026-10-25T10:02:01.776Z] check sid=fc217105 active=false idle=8424s
+[2026-10-25T10:17:01.824Z] check sid=fc217105 active=false idle=9324s
+[2026-10-25T10:32:01.859Z] check sid=fc217105 active=false idle=10224s
+[2026-10-25T10:49:31.601Z] check sid=fc217105 active=false idle=11274s
+[2026-10-25T10:49:31.601Z] check agent-missing sid=fc217105 -> try resume
+[2026-10-25T10:49:31.602Z] check resume owner sid=fc217105 via sessionController
+[2026-10-25T10:49:31.780Z] check agent-resumed sid=fc217105
+[2026-10-25T10:49:31.801Z] dream start pid=11684 session=fc217105 rounds=3 T=1792914097602
+[2026-10-25T10:52:14.898Z] turn-stopping pid=11684 sid=fc217105 reason=none wasDream=true
+[2026-10-25T10:52:14.926Z] dream group 2/3 steered
+[2026-10-25T10:54:22.581Z] pre-step first pid=11684 sid=fc217105 priorUser=12 userMsgs=1
+[2026-10-25T10:54:22.586Z] hit-chain pid=11684 sid=fc217105 textLen=72 hit=null
+[2026-10-25T11:04:31.638Z] check sid=fc217105 active=true idle=12174s
+[2026-10-25T11:04:54.830Z] turn-stopping pid=11684 sid=fc217105 reason=none wasDream=true
+[2026-10-25T11:04:54.866Z] dream group 3/3 steered
+[2026-10-25T11:09:23.222Z] turn-stopping pid=11684 sid=fc217105 reason=none wasDream=true
+[2026-10-25T11:09:23.267Z] dream done session=fc217105 groups=3 stamped=33

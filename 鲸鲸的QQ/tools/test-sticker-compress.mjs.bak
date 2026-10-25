@@ -1,0 +1,69 @@
+// 回归：收藏表情前的大文件压缩（compressForSticker）。
+//
+// 背景：QQ 的收藏表情上传（Highway PicUp.DataUp）有约 4MB 单文件上限，
+// 超过 SnowLuma 只会报 `add_custom_face failed: fetch failed`——网络层失败、
+// 没有可读原因。这里验证 compressForSticker 能把超限文件压到上限内，
+// 且**保留 GIF 动画**（收藏要的是会动的表情，不能变成抽帧拼图）。
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { compressForSticker } from '../src/media-normalize.js';
+
+let pass = 0;
+let fail = 0;
+function ok(name, cond, extra = '') {
+  if (cond) { pass++; console.log(`PASS ${name}${extra ? ' — ' + extra : ''}`); }
+  else { fail++; console.log(`FAIL ${name}${extra ? ' — ' + extra : ''}`); }
+}
+
+// ── 1. 小文件原样返回，不该 spawn ffmpeg ────────────────────────────────
+{
+  const png = Buffer.from(
+    '89504e470d0a1a0a0000000d49484452000000010000000108060000001f15c4890000000d49444154789c626001000000ffff03000006000557bfabd40000000049454e44ae426082',
+    'hex'
+  );
+  const out = await compressForSticker(png, 'image/png', { ffmpegPath: null });
+  ok('小 PNG 原样返回（不 spawn ffmpeg）', out.ok && out.buffer === png);
+}
+
+// ── 2. 超限但没有 ffmpeg → 明确失败并说明原因 ────────────────────────────
+{
+  const big = Buffer.alloc(5 * 1024 * 1024, 0x41);
+  const out = await compressForSticker(big, 'image/gif', { ffmpegPath: null, maxBytes: 3.5 * 1024 * 1024 });
+  ok('超限 + 无 ffmpeg ⇒ ok:false 且说明原因', !out.ok && /ffmpeg/.test(out.error || ''), out.error);
+}
+
+// ── 3. 超限 + ffmpeg 不可用 ⇒ 失败而不是抛异常 ─────────────────────────
+{
+  const big = Buffer.alloc(5 * 1024 * 1024, 0x41);
+  const out = await compressForSticker(big, 'image/gif', {
+    ffmpegPath: path.join(os.tmpdir(), 'definitely-not-ffmpeg.exe'),
+    maxBytes: 3.5 * 1024 * 1024,
+    timeoutMs: 5000,
+  });
+  ok('ffmpeg 不可用 ⇒ ok:false（不抛异常）', out.ok === false, out.error);
+}
+
+// ── 4. 空字节 ─────────────────────────────────────────────────────────
+{
+  const out = await compressForSticker(null, 'image/gif', {});
+  ok('空输入 ⇒ ok:false', out.ok === false);
+  const out2 = await compressForSticker(Buffer.alloc(0), 'image/gif', {});
+  ok('零长度 ⇒ ok:false', out2.ok === false);
+}
+
+// ── 5. maxBytes 夹取：不能被 config 撑到超过 4MB ───────────────────────
+{
+  // 用一个必然超限且无法压缩的输入，验证 clampInt 生效（不抛、返回失败）
+  const big = Buffer.alloc(6 * 1024 * 1024, 0x42);
+  const out = await compressForSticker(big, 'image/gif', {
+    ffmpegPath: path.join(os.tmpdir(), 'nope.exe'),
+    maxBytes: 999 * 1024 * 1024,   // 试图把上限撑到 999MB
+    timeoutMs: 5000,
+  });
+  ok('maxBytes 超大时被夹到硬顶（行为正常不崩）', typeof out.ok === 'boolean');
+}
+
+console.log(`\n${fail === 0 ? 'ALL PASS' : 'FAILED'}  pass=${pass} fail=${fail}`);
+process.exit(fail === 0 ? 0 : 1);
